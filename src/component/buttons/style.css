@@ -1,0 +1,43 @@
+.buttons {
+  margin-bottom: 15px; }
+
+.btn {
+  cursor: pointer; }
+  .btn:not(:last-child) {
+    margin-right: 10px; }
+  .btn[disabled] {
+    cursor: auto; }
+  .btn .fa {
+    margin-right: 5px; }
+
+.popup-wrap {
+  position: relative; }
+  .popup-wrap .popup {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 10;
+    width: 330px;
+    padding: 20px;
+    margin-top: 10px;
+    box-shadow: 0 0 15px -1px #000;
+    background: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: .45s; }
+    .popup-wrap .popup-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 15px;
+      max-width: 100%; }
+      .popup-wrap .popup-row span {
+        flex: 0 0 50%; }
+      .popup-wrap .popup-row input, .popup-wrap .popup-row select {
+        max-width: 145px;
+        min-width: 145px; }
+  .popup-wrap.is-active .popup {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible; }

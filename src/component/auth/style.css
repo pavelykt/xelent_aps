@@ -1,0 +1,14 @@
+.authenticate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; }
+  .authenticate__logo {
+    margin-bottom: 20px;
+    text-align: center; }
+  .authenticate .form-check-label {
+    display: flex;
+    align-items: center; }
+  .authenticate .btn {
+    padding: 10px 25px;
+    cursor: pointer; }

@@ -1,0 +1,9 @@
+.pageble {
+  margin: 15px 0; }
+
+.pagen {
+  display: flex;
+  justify-content: space-between; }
+
+.pagination {
+  width: 50px; }
